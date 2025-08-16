@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hisaab.DomainLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+547c489ffb8801432153640a1bf8404d728594b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d20030f1efc1155c12dcdf97fd6abb755bc46b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hisaab.DomainLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hisaab.DomainLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

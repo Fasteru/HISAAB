@@ -2,4 +2,62 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+TestResults/
+out/
+publish/
+GeneratedFiles/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if you use package restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.dmp
+*.tmp
+*.tmp/
+*.cache
+*.pid
+*.scc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Rider
+.idea/
+*.sln.iml
+
+# Dotnet tool artifacts
+*.dotnet_tool_manifest.json

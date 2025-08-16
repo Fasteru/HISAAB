@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hissab.Api", "Hissab.Api.csproj", "{820E17DC-93A9-693E-CFB0-769E88A7CF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HisaabBusinessLayer", "..\Hisaab.BusinessLayer\HisaabBusinessLayer.csproj", "{412EDDF6-D1B1-5A54-5202-EDB8B78D7917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hisaab.DomainLayer", "..\Hisaab.DomainLayer\Hisaab.DomainLayer.csproj", "{BF281B39-1DFA-B2F7-FAA5-49DCB39E50BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hisaab.Repository", "..\Hisaab.Repository\Hisaab.Repository.csproj", "{6216FCEA-4E8C-18A2-88E6-2C0013018B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{820E17DC-93A9-693E-CFB0-769E88A7CF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820E17DC-93A9-693E-CFB0-769E88A7CF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820E17DC-93A9-693E-CFB0-769E88A7CF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820E17DC-93A9-693E-CFB0-769E88A7CF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412EDDF6-D1B1-5A54-5202-EDB8B78D7917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412EDDF6-D1B1-5A54-5202-EDB8B78D7917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412EDDF6-D1B1-5A54-5202-EDB8B78D7917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412EDDF6-D1B1-5A54-5202-EDB8B78D7917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF281B39-1DFA-B2F7-FAA5-49DCB39E50BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF281B39-1DFA-B2F7-FAA5-49DCB39E50BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF281B39-1DFA-B2F7-FAA5-49DCB39E50BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF281B39-1DFA-B2F7-FAA5-49DCB39E50BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6216FCEA-4E8C-18A2-88E6-2C0013018B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6216FCEA-4E8C-18A2-88E6-2C0013018B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6216FCEA-4E8C-18A2-88E6-2C0013018B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6216FCEA-4E8C-18A2-88E6-2C0013018B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
