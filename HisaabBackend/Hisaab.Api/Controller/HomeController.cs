@@ -10,9 +10,9 @@ namespace Hissab.Api.Controller
 
         [HttpGet]
         [Route("welcome")]  
-        public string WelcomeMessage()
+        public IActionResult WelcomeMessage()
         {
-            return "Welcome to Hissab API, this message is from .net backend"; 
+            return Ok("Welcome to Hissab API, this message is from .net backend");
         }
     }
 }
