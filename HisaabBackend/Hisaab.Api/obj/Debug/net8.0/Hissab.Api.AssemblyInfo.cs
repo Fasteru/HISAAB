@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hissab.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+259e800d67431aa78f1e382afb82b335d014bad8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4824bc215eeb2c58cbaf09d6d0c33db4cc06690c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hissab.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hissab.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

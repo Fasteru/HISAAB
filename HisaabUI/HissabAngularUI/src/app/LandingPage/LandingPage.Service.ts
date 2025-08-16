@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
+import { HttpGetService } from '../Services/http-get.service';
+import { Observable } from 'rxjs';
 
 @Injectable({
-	providedIn: 'root'
+  providedIn: 'root'
 })
 export class LandingPageService {
-	constructor() {}
-	// Add service methods here
+  constructor(private httpGet: HttpGetService) {}
+
+  getData(): Observable<any> {
+    return this.httpGet.get<any>('/HomeController/welcome');
+  }
 }

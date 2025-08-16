@@ -1,5 +1,18 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// use cors
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
