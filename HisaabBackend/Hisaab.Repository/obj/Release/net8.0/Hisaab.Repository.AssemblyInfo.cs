@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hisaab.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a7bf7ccf615e2ea55672d493e016ed75d71b98a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hisaab.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hisaab.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
